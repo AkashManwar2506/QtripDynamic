@@ -37,7 +37,7 @@ function addCityToDOM(id, city, description, image) {
   cardDiv.className = 'tile col-xs-12 col-sm-6 col-md-4 col-lg-3 gy-3';
   cardDiv.innerHTML = `
   <p class="tile-text">${city}</p>
-  <a id=${id} href="${frontendURL}frontend/pages/adventures/?city=${id}">
+  <a id=${id} href="${frontendURL}pages/adventures/?city=${id}">
   <img src="${image}" alt="">
   </a>`;
 

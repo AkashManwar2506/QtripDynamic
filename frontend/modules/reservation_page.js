@@ -49,7 +49,7 @@ function addReservationToTable(reservations) {
       <th scope="col">${formattedDate}</th>
       <th scope="col">${element.price}</th>
       <th scope="col">${formatDateTime(element.time)}</th>
-      <td class="reservation-visit-button" id="${element.id}" ><a href="${config.frontendEndpoint}forntend/pages/adventures/detail/?adventure=${element.adventure}">Visit Adventure</a></td>
+      <td class="reservation-visit-button" id="${element.id}" ><a href="${config.frontendEndpoint}pages/adventures/detail/?adventure=${element.adventure}">Visit Adventure</a></td>
       `;
 
       tBody.appendChild(row);

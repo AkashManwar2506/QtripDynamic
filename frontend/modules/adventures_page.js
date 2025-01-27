@@ -34,7 +34,7 @@ function addAdventureToDOM(adventures) {
     let card = document.createElement('div');
     card.className = 'activity-card col-md-6';
     card.innerHTML = `
-      <a id="${element.id}" href="${config.frontendEndpoint}frontend/pages/adventures/detail/?adventure=${element.id}">
+      <a id="${element.id}" href="${config.frontendEndpoint}pages/adventures/detail/?adventure=${element.id}">
         <img src="${element.image}" class="activity-card-image" alt="...">  
         <div class="category-banner">${element.category}</div> 
       </a>
