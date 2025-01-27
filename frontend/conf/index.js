@@ -1,4 +1,4 @@
 
-const config = { backendEndpoint: "https://qtripdynamic-yotj.onrender.com/", frontendEndpoint: "http://13.234.225.137:8081/"};
+const config = { backendEndpoint: "https://qtripdynamic-yotj.onrender.com/", frontendEndpoint: "https://qtripdynamicakash.netlify.app/"};
 
 export default config;
